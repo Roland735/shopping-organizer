@@ -161,7 +161,7 @@ const Home = () => {
                   <p className="text-gray-500">{testimonial.role}</p>
                 </div>
               </div>
-              <p className="text-gray-600">"{testimonial.quote}"</p>
+              <p className="text-gray-600">&quot;{testimonial.quote}&quot;</p>
             </motion.div>
           ))}
         </div>
