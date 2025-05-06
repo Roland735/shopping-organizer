@@ -25,8 +25,8 @@ const Navbar = () => {
             <a href="#features" className="text-gray-600 hover:text-emerald-600 transition-colors">Feature</a>
             <a href="#pricing" className="text-gray-600 hover:text-emerald-600 transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-600 hover:text-emerald-600 transition-colors">Testimonials</a>
-            <a href="#cta" className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }}>Get Started</a>
-            <a href="#cta" className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</a>
+            <button className="text-gray-600 hover:text-emerald-600 transition-colors" >Get Started</button>
+            <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -48,7 +48,8 @@ const Navbar = () => {
             <a href="#features" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Features</a>
             <a href="#pricing" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Pricing</a>
             <a href="#testimonials" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Testimonials</a>
-            <a href="#cta" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Get Started</a>
+            <button className="text-gray-600 hover:text-emerald-600 transition-colors" >Get Started</button>
+            <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
           </motion.div>
         )}
       </div>
@@ -132,9 +133,7 @@ const Home = () => {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full bg-emerald-600 text-white py-3 rounded-lg hover:bg-emerald-700 transition-colors">
-                  Choose Plan
-                </button>
+
               </motion.div>
             ))}
           </div>
@@ -179,7 +178,7 @@ const Home = () => {
               Join thousands of organized shoppers today
             </p>
             <button className="bg-white text-emerald-600 px-8 py-3 rounded-lg
-              hover:bg-emerald-50 transition-colors duration-300 font-semibold">
+              hover:bg-emerald-50 transition-colors duration-300 font-semibold" onClick={() => { window.location.href = '/signup'; }} >
               Get Started Now
             </button>
           </motion.div>
