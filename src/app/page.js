@@ -48,8 +48,10 @@ const Navbar = () => {
             <a href="#features" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Features</a>
             <a href="#pricing" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Pricing</a>
             <a href="#testimonials" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Testimonials</a>
-            <button className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }} >Get Started</button>
-            <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
+            <div className='flex flex-col items-start'>
+              <button className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }} >Get Started</button>
+              <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
+            </div>
           </motion.div>
         )}
       </div>
