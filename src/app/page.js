@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href="#pricing" className="text-gray-600 hover:text-emerald-600 transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-600 hover:text-emerald-600 transition-colors">Testimonials</a>
             <button className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }}>Get Started</button>
-            <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
+            <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-400 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
           </div>
 
           {/* Mobile Menu Button */}
