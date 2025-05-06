@@ -25,7 +25,7 @@ const Navbar = () => {
             <a href="#features" className="text-gray-600 hover:text-emerald-600 transition-colors">Features</a>
             <a href="#pricing" className="text-gray-600 hover:text-emerald-600 transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-600 hover:text-emerald-600 transition-colors">Testimonials</a>
-            <button className="text-gray-600 hover:text-emerald-600 transition-colors" >Get Started</button>
+            <button className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }}>Get Started</button>
             <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
           </div>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a href="#features" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Features</a>
             <a href="#pricing" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Pricing</a>
             <a href="#testimonials" className="block px-4 py-2 text-gray-600 hover:bg-emerald-50">Testimonials</a>
-            <button className="text-gray-600 hover:text-emerald-600 transition-colors" >Get Started</button>
+            <button className="text-gray-600 hover:text-emerald-600 transition-colors" onClick={() => { window.location.href = '/signup'; }} >Get Started</button>
             <button className="text-gray-900 hover:text-emerald-600 transition-colors bg-emerald-300 px-4 rounded-lg" onClick={() => { window.location.href = '/login'; }}>Login</button>
           </motion.div>
         )}
