@@ -52,7 +52,7 @@ export default function SignupPage() {
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
             Create Account
           </h1>
-          <p className="text-gray-500">Join our community today</p>
+          <p className="text-gray-500">Join our community </p>
         </div>
 
         {errorMsg && (
