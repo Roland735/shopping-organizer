@@ -22,7 +22,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8">
-            <a href="#features" className="text-gray-600 hover:text-emerald-600 transition-colors">Feature</a>
+            <a href="#features" className="text-gray-600 hover:text-emerald-600 transition-colors">Features</a>
             <a href="#pricing" className="text-gray-600 hover:text-emerald-600 transition-colors">Pricing</a>
             <a href="#testimonials" className="text-gray-600 hover:text-emerald-600 transition-colors">Testimonials</a>
             <button className="text-gray-600 hover:text-emerald-600 transition-colors" >Get Started</button>
